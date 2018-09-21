@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="@dimen/mainPadding"
+    android:footerDividersEnabled="true"
+    android:headerDividersEnabled="true"
+    android:textColor="@color/primaryText">
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/primaryText"
+        android:textSize="@dimen/heading2"
+        android:textStyle="bold"
+        android:padding="@dimen/lineHeight"/>
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/lineHeight"/>
+
+
+</LinearLayout>

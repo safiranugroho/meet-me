@@ -6,4 +6,31 @@
     android:layout_height="match_parent"
     tools:context=".view.FriendListActivity">
 
+    <TextView
+        android:id="@+id/noFriendsPlaceholder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/placeholderPadding"
+        android:paddingRight="@dimen/placeholderPadding"
+        android:gravity="center"
+        android:text="Add friends from your contacts by clicking the icon above!"
+        android:textAlignment="center"
+        android:textColor="@color/secondaryText"
+        android:textSize="@dimen/description"
+        android:textStyle="italic"
+        android:visibility="visible" />
+
+    <ListView
+        android:id="@+id/friendList"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:footerDividersEnabled="true"
+        android:headerDividersEnabled="true"
+        android:divider="@color/accent"
+        android:dividerHeight="0.5dp"
+        android:textSize="@dimen/content"
+        android:textColor="@color/primaryText"
+        android:visibility="visible" />
+
+
 </android.support.constraint.ConstraintLayout>

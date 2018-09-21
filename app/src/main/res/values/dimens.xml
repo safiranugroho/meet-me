@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="lineHeight">2dp</dimen>
+    <dimen name="mainPadding">15dp</dimen>
+    <dimen name="objectPadding">10dp</dimen>
+    <dimen name="placeholderPadding">95dp</dimen>
+    <dimen name="mainMargin">10dp</dimen>
+    <dimen name="objectMargin">10dp</dimen>
+
+    <dimen name="heading1">25sp</dimen>
+    <dimen name="heading2">18sp</dimen>
+    <dimen name="content">16sp</dimen>
+    <dimen name="description">14sp</dimen>
+</resources>
