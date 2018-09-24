@@ -1,3 +1,39 @@
 <resources>
-    <string name="app_name">MeetMe</string>
+    <string name="app_name">Meet Me</string>
+
+    <string name="placeholder">Placeholder</string>
+    <string name="save">Save</string>
+
+    <string name="no_friends_placeholder">Add friends from your contacts by clicking the icon above!</string>
+    <string name="add_friend_description">Add New Friend</string>
+    <string name="remove_friend_description">Remove Friend</string>
+    <string name="add_photo_description">Add profile photo</string>
+    <string name="set_birthday_hint">Set birthday…</string>
+
+    <string name="no_meetings_placeholder">Set up new meetings with your friends by clicking the pencil button!</string>
+    <string name="add_meeting_description">Add New Meeting</string>
+    <string name="remove_meeting_description">Remove Meeting</string>
+    <string name="edit_meeting_description">Edit Meeting</string>
+    <string name="meeting_title">Meeting Title</string>
+    <string name="meeting_start_date">Start Date</string>
+    <string name="meeting_start_time">Start Time</string>
+    <string name="meeting_end_date">End Date</string>
+    <string name="meeting_end_time">End Time</string>
+    <string name="meeting_friends">Invite Friends…</string>
+    <string name="meeting_location">Meeting Location</string>
+    <string name="select_friends">Select Friends</string>
+    <string name="invited_friends">Invited Friends</string>
+
+    <string name="preferences_description">Preferences</string>
+    <string name="meeting_suggestion">Meeting suggestion preferences</string>
+    <string name="suggestion_interval">Suggestion interval (in minutes)</string>
+    <string name="suggestion_interval_summary">Set the interval between each meeting suggestion</string>
+    <string name="default_duration">Default meeting duration (in minutes)</string>
+    <string name="default_duration_summary">Set the meeting duration for each meeting</string>
+    <string name="meeting_reminder">Meeting reminder preferences</string>
+    <string name="reminder_time">Reminder time (in minutes)</string>
+    <string name="reminder_time_summary">Set the time before each meeting to display notification</string>
+    <string name="snooze_time">Snooze time (in minutes)</string>
+    <string name="snooze_time_summary">Set the duration for snoozing each reminder</string>
+
 </resources>

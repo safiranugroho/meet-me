@@ -1,4 +1,4 @@
-package safira.meetme.model.services
+package safira.meetme.services
 
 import android.content.Context
 import android.content.Intent
@@ -9,7 +9,9 @@ import android.util.Log
 
 class ContactDataManager
 (private val context: Context, private val intent: Intent) {
-    private val LOG_TAG = ContactDataManager::class.java.name
+    companion object{
+        private const val LOG_TAG: String = "ContactDataManager"
+    }
 
     val contactName: String?
         @Throws(ContactQueryException::class)

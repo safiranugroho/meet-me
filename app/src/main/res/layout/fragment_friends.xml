@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/friends"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.FriendListActivity">
+    tools:context=".view.FriendListFragment">
 
     <TextView
         android:id="@+id/noFriendsPlaceholder"
@@ -13,9 +14,9 @@
         android:paddingLeft="@dimen/placeholderPadding"
         android:paddingRight="@dimen/placeholderPadding"
         android:gravity="center"
-        android:text="Add friends from your contacts by clicking the icon above!"
+        android:text="@string/no_friends_placeholder"
         android:textAlignment="center"
-        android:textColor="@color/secondaryText"
+        android:textColor="@color/secondary_text"
         android:textSize="@dimen/description"
         android:textStyle="italic"
         android:visibility="visible" />
@@ -29,8 +30,7 @@
         android:divider="@color/accent"
         android:dividerHeight="0.5dp"
         android:textSize="@dimen/content"
-        android:textColor="@color/primaryText"
+        android:textColor="@color/primary_text"
         android:visibility="visible" />
 
-
-</android.support.constraint.ConstraintLayout>
+</FrameLayout>

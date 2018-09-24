@@ -14,7 +14,10 @@ import safira.meetme.model.Friend
 import safira.meetme.model.FriendList
 
 class FriendListAdapter(context: Context, @LayoutRes resource: Int) : ArrayAdapter<Friend>(context, resource) {
-    private val LOG_TAG = FriendListAdapter::class.java.name
+    companion object {
+        private const val LOG_TAG: String = "FriendListAdapter"
+    }
+
     private val inflater: LayoutInflater
             = context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
 
@@ -27,7 +30,7 @@ class FriendListAdapter(context: Context, @LayoutRes resource: Int) : ArrayAdapt
         val nameView: TextView?
 
         if (this.count > 0) {
-            row = inflater.inflate(R.layout.activity_friend_list_row, parent, false)
+            row = inflater.inflate(R.layout.fragment_friend_list_row, parent, false)
             nameView = row.findViewById(R.id.name)
 
             try {
